@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wb" >
+
+    <TextView
+        android:id="@+id/T1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address:"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/vtextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/T3"
+        android:layout_marginTop="16dp"
+        android:text=" "
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="5dp"
+        android:layout_alignParentLeft="true"
+        android:text="Order"
+        android:background="@drawable/btnshape" />
+    
+
+    <EditText
+        android:id="@+id/V1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/T1"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:inputType="textPostalAddress"
+        android:textSize="20sp"
+        android:background="@drawable/etshape" >
+
+        <requestFocus />
+    </EditText>
+
+    <WebView
+        android:id="@+id/webView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button1"
+        android:layout_alignRight="@+id/V1"
+        android:layout_below="@+id/T3"
+        android:layout_toRightOf="@+id/vtextView1"
+        android:scrollbars="vertical"
+        android:background="#baff33" />
+
+    <EditText
+        android:id="@+id/V2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/T2"
+        android:gravity="center_horizontal"
+        android:ems="10"
+        android:inputType="number"
+        android:background="@drawable/etshape" />
+
+    <TextView
+        android:id="@+id/T2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/V1"
+        android:layout_marginTop="14dp"
+        android:layout_toRightOf="@+id/vtextView1"
+        android:text="Mobile No.:"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/T3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/V2"
+        android:text="Ordered Menu:"
+        android:textSize="20sp" />
+
+</RelativeLayout>

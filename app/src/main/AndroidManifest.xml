@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="hometutorial.nit.com.restaurentapp">
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="hometutorial.nit.com.restaurentapp.restaurant.LoginReg"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    <activity
+        android:name="hometutorial.nit.com.restaurentapp.restaurant.Choice"
+        android:label="Choice" >
+    </activity>
+    <activity
+        android:name="hometutorial.nit.com.restaurentapp.restaurant.Menu1"
+        android:label="Veg Menu" >
+    </activity>
+
+    <activity
+        android:name="hometutorial.nit.com.restaurentapp.restaurant.Menu2"
+        android:label="Non-Veg Menu" >
+    </activity>
+    <activity android:name="hometutorial.nit.com.restaurentapp.restaurant.Verify" >
+    </activity>
+
+    <service android:name="hometutorial.nit.com.restaurentapp.restaurant.AcknowledgeService" >
+    </service>
+
+    <activity android:name="hometutorial.nit.com.restaurentapp.restaurant.Main" >
+    </activity>
+    <activity
+        android:name="hometutorial.nit.com.restaurentapp.restaurant.SignUPActivity"
+        android:label="SignUp" >
+    </activity>
+    <activity android:name="hometutorial.nit.com.restaurentapp.restaurant.RestaurantList">
+    </activity>
+
+    <activity android:name="hometutorial.nit.com.restaurentapp.restaurant.SelectPreference">
+    </activity>
+
+    <activity android:name="hometutorial.nit.com.restaurentapp.restaurant.Menu3">
+    </activity>
+
+
+        <activity android:name="hometutorial.nit.com.restaurentapp.table.TableActivity">
+        </activity>
+
+
+        <activity
+        android:name="hometutorial.nit.com.restaurentapp.restaurant.AdminLogin"
+        android:label="Admin Login" >
+    </activity>
+    <activity android:name="hometutorial.nit.com.restaurentapp.restaurant.Admin_Main" >
+    </activity>
+    <activity android:name="hometutorial.nit.com.restaurentapp.restaurant.AdminOrderDetails" >
+    </activity>
+
+</application>
+
+    </manifest>

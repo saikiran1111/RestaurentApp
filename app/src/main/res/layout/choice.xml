@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wb" >
+
+    <RadioGroup
+        android:id="@+id/rg1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="105dp" >
+
+        <RadioButton
+            android:id="@+id/rb1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vegetarian Food"
+            android:textColor="#f0f"
+            android:textSize="20dp"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/rb2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Non-Vegetarian Food"
+            android:textColor="#f0f"
+            android:textSize="20dp" 
+            android:checked="true"/>
+        
+        <RadioButton
+            android:id="@+id/rb3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="desert"
+            android:textColor="#f0f"
+            android:textSize="20dp" 
+            android:checked="true"/>
+        
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/image6"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_above="@+id/rg1"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/re" />
+
+</RelativeLayout>

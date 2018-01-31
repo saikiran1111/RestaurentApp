@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"  
+    android:background="@drawable/wb"
+    android:textSize="20sp" >
+
+    <CheckBox
+        android:id="@+id/CheckBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TextView2"
+        android:layout_marginTop="25dp"
+        android:text="Kheer"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/TextView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/TextView2"
+        android:layout_alignBottom="@+id/TextView2"
+        android:layout_alignLeft="@+id/TextView5"
+        android:text="COST"
+        android:textColor="#f00"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/TextView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/CheckBox3"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="17dp"
+        android:text="QTY"
+        android:textColor="#f00"
+        android:textSize="20dp" />
+
+    <CheckBox
+        android:id="@+id/CheckBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/CheckBox3"
+        android:layout_marginTop="26dp"
+        android:text="Kulfi"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/TextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/CheckBox3"
+        android:text="desert"
+        android:textColor="#f0f"
+        android:textSize="40dp" />
+
+    <EditText
+        android:id="@+id/EditText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/TextView5"
+        android:layout_alignLeft="@+id/EditText5"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/etshape"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/EditText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/CheckBox2"
+        android:layout_alignLeft="@+id/EditText1"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/etshape"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/TextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/CheckBox3"
+        android:layout_below="@+id/TextView1"
+        android:layout_marginTop="23dp"
+        android:text="ITEM"
+        android:textColor="#f00"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/TextView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/CheckBox4"
+        android:layout_alignRight="@+id/TextView5"
+        android:text="$3.25"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="8dp"
+        android:background="@drawable/btnshape"
+        android:text="PROCEED"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/TextView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/EditText5"
+        android:layout_alignBottom="@+id/EditText5"
+        android:layout_alignLeft="@+id/TextView9"
+        android:text="$3.50"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/EditText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/TextView9"
+        android:layout_alignLeft="@+id/TextView4"
+        android:layout_alignTop="@+id/CheckBox3"
+        android:background="@drawable/etshape"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/TextView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/TextView5"
+        android:layout_alignTop="@+id/CheckBox5"
+        android:text="$1.50"
+        android:textSize="20dp" />
+
+    <CheckBox
+        android:id="@+id/CheckBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/CheckBox1"
+        android:layout_marginTop="18dp"
+        android:text="Sherbet"
+        android:textSize="20dp" />
+
+    <CheckBox
+        android:id="@+id/CheckBox5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/CheckBox2"
+        android:layout_marginTop="16dp"
+        android:text="Blacktea"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/image5"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/EditText4"
+        android:layout_toLeftOf="@+id/TextView7"
+        android:src="@drawable/ctikka" />
+
+    <TextView
+        android:id="@+id/TextView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/CheckBox3"
+        android:layout_alignBottom="@+id/CheckBox3"
+        android:layout_alignRight="@+id/TextView1"
+        android:text="$2.95"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/TextView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/TextView8"
+        android:layout_alignTop="@+id/CheckBox2"
+        android:text="$3.50"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/image3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/image5"
+        android:layout_below="@+id/CheckBox2"
+        android:src="@drawable/vmanchuria" />
+
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/image5"
+        android:layout_alignTop="@+id/EditText5"
+        android:src="@drawable/vburger" />
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/image2"
+        android:layout_alignTop="@+id/CheckBox3"
+        android:src="@drawable/vpizza" />
+
+    <ImageView
+        android:id="@+id/image4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/image3"
+        android:layout_toLeftOf="@+id/TextView7"
+        android:src="@drawable/vbiryani" />
+
+    <EditText
+        android:id="@+id/EditText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/TextView7"
+        android:background="@drawable/etshape"
+        android:ems="10"
+        android:layout_alignStart="@+id/EditText3" />
+
+    <CheckBox
+        android:id="@+id/CheckBox4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/image4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/TextView7"
+        android:text="Gulabjamun"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/EditText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/image4"
+        android:layout_alignLeft="@+id/EditText1"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/etshape"
+        android:ems="10"
+        android:textSize="20dp" />
+    
+
+</RelativeLayout>
